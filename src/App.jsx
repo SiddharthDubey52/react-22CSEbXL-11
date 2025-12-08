@@ -3,6 +3,7 @@ import ClassBased from './Component/ClassBased'
 import FunctionBased from './Component/FunctionBased'
 import Demo from './State/Demo'
 import Counter from './State/Counter'
+import Parent from './props/Parent'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
    {/* <ClassBased/> */}
    {/* <FunctionBased/> */}
    {/* <Demo/> */}
-   <Counter/>
+   {/* <Counter/> */}
+   <Parent/>
     </div>
    
   )
